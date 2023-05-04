@@ -1,0 +1,93 @@
+\documentclass[twocolumn]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Technical Writing and Presentation HW4}
+
+\author{\IEEEauthorblockN{Deng-Cyun Chen}
+\IEEEauthorblockA{
+\textit{*Department of Computer Science and Information Engineering}\\
+National Taiwan University of Science and Technology, Taipei, Taiwan\\
+12312@gmail.com,123ng@gmail.com}
+}
+
+\maketitle
+
+\begin{abstract}
+Because the MADM method proposed based on the IVIFV longitude function and the IVIFV weighted average operator in the fuzzy system has some shortcomings, so the district needs to develop a new MADM method to overcome.
+\end{abstract}
+
+\begin{IEEEkeywords}
+IVIFS,IVIFV,MADM,VIKOR,TOPSIS
+\end{IEEEkeywords}
+
+\section{Introduction}
+
+In the first paper~\cite{chen2022}, we briefly introduced the Multiple Attribute Decision Making (MADM) method and definitions such as IVIFV. We then proposed an improved MADM method using a novel scoring function.
+
+In the second paper~\cite{Sarfaraz2020}, we discussed traditional normalization methods such as linear normalization and logarithmic normalization. We used logarithmic normalization to improve the MADM method and renamed the improved method as VIKOR and TOPSIS.
+
+These papers present our contributions in improving the MADM method and demonstrate the effectiveness of our proposed approaches.
+
+In the following two papers, we demonstrate the use of the TOPSIS and VIKOR methods. In ~\cite{Chandrika2022}, we utilized the VIKOR method to select the best material mix for engineering design. In ~\cite{Thasni2020}, we used the TOPSIS method to analyze multiple factors and identify a suitable cloud provider.
+
+Our contributions aim to provide practical and effective decision-making tools for complex systems in various fields, including engineering design and cloud computing. The TOPSIS and VIKOR methods have been extensively studied and validated in the literature, and we further demonstrate their applicability in real-world scenarios.
+
+
+
+
+\section{RELATED WORK}
+
+
+\subsection{Multiattribute decision making based on novel score function and the power operator of interval-valued intuitionistic fuzzy values}
+
+In recent years,some MADM methods~\cite{chen2015}~\cite{chen2017}~\cite{chen2021}~\cite{chen2010}~\cite{Zhao2011}have been proposed based on IVIFSs.However, the MADM methods presented in~\cite{chen2015}~\cite{chen2017}~\cite{chen2021}~\cite{chen2010}~\cite{Zhao2011} have the following drawbacks:
+
+    (1) Chen and Huang~\cite{chen2017_2} pointed out that the MADM method presented in~\cite{chen2015} has the shortcoming of obtaining unreasonable preference orders (POs) of alternatives in some circumstances.
+    
+    (2) Chen and Han~\cite{chen2018} pointed out that the MADM method presented in~\cite{chen2017} has the drawback that it cannot get the POs of alternatives in some cases since infinite loops occurred.
+    
+    (3) The MADM method presented in~\cite{chen2021} is not able to distinguish POs of alternatives and obtains unreasonable POs of alternatives in some situations.
+    
+    (4) Chen and Huang~\cite{chen2017_2} pointed out that the drawback of the MADM method presented in~\cite{chen2010} is that it cannot obtain the POs of alternatives in some circumstances due to the ‘‘division by zero” problem occurred.
+    
+    (5) Chen and Han~\cite{chen2018} pointed out that the drawback of the MADM method presented in~\cite{Zhao2011} is that it cannot obtain the POs of alternatives in some circumstances due to the ‘‘division by zero” occurred.
+
+Therefore, a new MADM method needs to be developed to overcome the shortcomings of the MADM methods presented in~\cite{chen2015}~\cite{chen2017}~\cite{chen2021}~\cite{chen2010}~\cite{Zhao2011}
+
+\subsection{A VIKOR AND TOPSIS FOCUSED REANALYSIS OF THE MADM 
+METHODS BASED ON LOGARITHMIC NORMALIZATION}
+
+In this paper, the author mainly introduces the importance of normalization in MADM methods and the problems with traditional normalization methods. A new normalization method, logarithmic normalization, is proposed and its application effects are explored through a reanalysis of MADM methods such as TOPSIS and VIKOR.
+
+In addition, the author also introduces other research works related to MADM, including PROMETHEE~\cite{Majid2010}~\cite{Mareschal2012}, Fuzzy MCDM, and GRA methods. These research works are all aimed at solving multi-criteria decision-making problems using different techniques and methods.
+
+For example, PROMETHEE is a ranking-based MADM method that can be used to compare multiple alternatives under different criteria. Fuzzy MCDM is a fuzzy theory-based MADM method that can handle situations where there is fuzziness or uncertainty between criteria. GRA~\cite{Peng2016} ~\cite{Moataz2016}is a grey relational analysis-based MADM method that can handle situations where there are interrelationships or mutual influences between criteria.
+
+Overall, the "related work" section of this PDF mainly introduces MADM methods and related research works to help readers better understand the application and development of MADM methods.
+
+\subsection{Cloud Service Provider Selection Using Fuzzy
+TOPSIS}
+
+    Related work section provides an overview of existing frameworks and multi-criteria decision-making (MCDM) methods for selecting cloud service providers. The SelCSP ~\cite{Ghosh2015}framework, which ranks providers based on interaction risk, is one such method. Other MCDM methods, including AHP~\cite{Rakesh2016} and TOPSIS~\cite{Ahmed2016}, have also been used for this purpose. However, these methods have not adequately addressed the fuzziness involved in quality of service (QoS) data used in the selection process. To address this limitation, the paper proposes a new framework that uses SMI criteria approved by ISO and the Fuzzy TOPSIS method to handle fuzzy data. Overall, this section provides important background information for understanding the proposed approach to selecting cloud service providers.
+
+
+
+
+
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,IEEE}
+
+
+\end{document}
